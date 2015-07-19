@@ -50,16 +50,16 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## TODO
 
-[ ] Clean up code: proper logging, etc
-[ ] Make creating the tile composites optional.
-[ ] Use oilypng rather than chunkypng
-[ ] Allow transforms of tiles as they are processed - provide a hook that lets you perform an operation on the tile data once it has been retrieved from the source and before it is saved.
-[ ] Move mbtiles into a separate gem
-[ ] Move tile/coordinate helpers into a separate gem?
-[ ] Generalise the web tile source
-[ ] Add option for multithreaded download of tiles
-[ ] LINZSource back off when 429 is hit
-[ ] Set User Agent when downloading
+- Clean up code: proper logging, etc
+- Make creating the tile composites optional.
+- Use oilypng rather than chunkypng
+- Allow transforms of tiles as they are processed - provide a hook that lets you perform an operation on the tile data once it has been retrieved from the source and before it is saved.
+- Move mbtiles into a separate gem
+- Move tile/coordinate helpers into a separate gem?
+- Generalise the web tile source
+- Add option for multithreaded download of tiles
+- LINZSource back off when 429 is hit
+- Set User Agent when downloading
 
 
 ## Resources
