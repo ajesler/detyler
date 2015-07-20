@@ -25,4 +25,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "sqlite3"
   spec.add_dependency "httparty"
   spec.add_dependency "chunky_png"
+  spec.add_dependency "oily_png"
 end
