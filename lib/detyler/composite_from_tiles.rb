@@ -26,6 +26,7 @@ module Detyler
 			@min_x.upto(@max_x).each.with_index do |x, xi|
         @min_y.upto(@max_y).each.with_index do |y, yi|
 					tile = ChunkyPNG::Image.from_file(File.join(@store.location, "#{@zoom}/#{x}/#{y}.png"))
+					tile.grayscale!
 
 					canvas.replace!(tile, TILE_SIZE * xi, TILE_SIZE * yi)
         end
