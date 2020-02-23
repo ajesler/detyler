@@ -64,6 +64,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Resources
 
+- https://boundingbox.klokantech.com/
 - http://www.netzwolf.info/kartografie/osm/tilebrowser?lat=45&lon=-90&zoom=5
 - http://tools.geofabrik.de/map/#0/47.9268/-2.1407&type=Geofabrik_Standard&grid=1&mlat=5.34718&mlon=31.25778
 - http://www.maptiler.org/google-maps-coordinates-tile-bounds-projection/
